@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+    <h1>Form Page</h1>
+        <form>
+            <input type="text"> <br>
+            <input type="text"> <br>
+            <input type="checkbox" name="Save"> <br>
+            <input type="checkbox" name="Cancel"> <br>
+            <button type="button">Save</button> <br>
+            <button type="button">Cancel</button>
+        </form>
+    </body>
+</html>
