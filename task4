@@ -7,12 +7,14 @@
     <body>
     <h1>Form Page</h1>
         <form>
-            <input type="text"> <br>
-            <input type="text"> <br>
-            <input type="checkbox" name="Save"> <br>
-            <input type="checkbox" name="Cancel"> <br>
-            <button type="button">Save</button> <br>
-            <button type="button">Cancel</button>
+            <input type="checkbox" id="accessory1" name="accessory1" value="Monitor">
+            <label for="accessory1"> I own a monitor</label><br>
+            <input type="checkbox" id="accessory2" name="accessory2" value="Mouse">
+            <label for="accessory2"> I own a mouse</label><br>
+            <input type="radio" id="save" name="buttons" value="Save">
+            <label for="save">Save</label><br>
+            <input type="radio" id="cancel" name="buttons" value="Cancel">
+            <label for="cancel">Cancel</label><br>
         </form>
     </body>
 </html>
