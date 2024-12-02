@@ -1,0 +1,33 @@
+h1 {
+    align-content: center;
+    color: green;
+}
+
+h2 {
+    align-content: center;
+    margin-bottom: 1cm;
+}
+
+p {
+    font-style: italic;
+    align-items: normal;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+form {
+    background-color: blue;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table  th{
+  background: #000000;
+  color: white;
+  }
+
+a:hover {
+    color: blue;
+}
