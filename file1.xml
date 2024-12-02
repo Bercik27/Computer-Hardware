@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computerHardware>
+    <component>
+        <name>GPU</name>
+        <type>Graphics</type>
+        <properties>
+            <property>Used to display on monitors</property>
+            <property>HDMI port</property>
+        </properties>
+    </component>
+    <component>
+        <name>CPU</name>
+        <type>Processor</type>
+        <properties>
+            <property>Can do mathematical operations</property>
+        </properties>
+    </component>
+    <component>
+        <name>Power Supply</name>
+        <type>Power</type>
+        <properties>
+            <property>800W</property>
+        </properties>
+    </component>
+</computerHardware>
