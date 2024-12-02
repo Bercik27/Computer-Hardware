@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     <body>
-    <h1>Form Page</h1>
+    <h1>Computer Accessiries</h1>
         <form>
             <input type="checkbox" id="accessory1" name="accessory1" value="Monitor">
             <label for="accessory1"> I own a monitor</label><br>
