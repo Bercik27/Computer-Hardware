@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1cm;  /* Set gap to 1cm between images */
+            margin: 20px;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-caption {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gallery of Images</h1>
+    <div class="container">
+        <div>
+            <a href= https://en.wikipedia.org/wiki/Computer_hardware#/media/File:PDP-11-M7270.jpg><img src="image1.jpg"  alt="Image 1">
+            <div class="image-caption">Image 1</div></a>
+        </div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/Computer_hardware#/media/File:Growth_in_processor_performance,_1978%E2%80%932010.png">
+            <img src="Growth_in_processor_performance,_1978–2010.png"  alt="Image 2">
+            <div class="image-caption">Image 2</div>
+        </div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/Computer_hardware#/media/File:Computer_from_inside_018.jpg">
+            <img src="Computer_from_inside_018.jpg" alt="Image 3">
+            <div class="image-caption">Image 3</div>
+        </div>
+        <div>
+            <a herf="https://en.wikipedia.org/wiki/Computer_hardware#/media/File:IBM_System_Z9_(type_2094_front).jpg">
+            <img src="IBM_System_Z9_(type_2094_front).jpg" alt="Image 4">
+            <div class="image-caption">Image 4</div>
+        </div>
+        <div>
+            <a herf="https://en.wikipedia.org/wiki/Computer_hardware#/media/File:Personal_computer,_exploded_6.svg">
+            <img src= "Personal_computer,_exploded_6.svg.png"Image 5">
+            <div class="image-caption">Image 5</div>
+        </div>
+    </div>
+</body>
+</html>
